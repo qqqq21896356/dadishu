@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 600ms;
+    text-decoration:none
+}
+body {
+    overflow: hidden; 
+} 
+
+.left a {
+    text-decoration: none;
+    color: inherit;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.box{
+    width:220px;
+    overflow: hidden;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+    width: 220px;
+    overflow-x:hidden;
+    color: #fff;
+    background:#20222b;
+}
+
+ .right  .cas{
+    border-style: solid dashed dashed;
+    border-color: #fff transparent transparent;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    position: absolute;
+    right: 15px;
+    margin-top: 21px;
+    margin-right: 27px;
+    border-width: 6px;
+    border-top-color: #20222b;
+} 
+.title {
+    line-height: 49px;
+    text-align: center;
+    color: rgba(255, 255, 255, .8);
+    border-bottom: 1px solid #444444;
+}
+ul li {
+    list-style: none;
+}
+.title-as{
+   line-height: 30px;
+    margin-left: 30px;
+    color: rgba(255, 255, 255, .8);
+}
+.title-as ul li a{
+    float: left;
+}
+ .container {
+    width: 100%;
+    padding-left: 220px;
+    position: relative;
+    font-size: 14px;
+}
+
+.container .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    min-width: 1000px;
+    border-bottom: 1px solid #cccccc;
+    padding-left: 220px;
+    background: #fff;
+  
+}
+.container>.nav>ul{
+    width: 389px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+}
+.container>.nav>ul>li{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin: 0 15px 0 24px;
+}
+.container>.nav>ul>li>button{
+    display: inline-block;
+}
+.container>.nav>ul>li>a>img {
+    width: 15px;
+    height: 15px;
+} 
+.content{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+    width: 220px;
+    color: #fff;
+    background:#20222b;
+}
+.yiji {
+    display: none;
+    background:black;
+    cursor:pointer;
+    height: auto;
+   
+}
+.box .sidebar b {
+    color: rgba(255, 255, 255, .8);
+    line-height: 38px;
+    height: auto;
+    display: block;
+    cursor:pointer;
+    padding-left: 40px;
+    font-size: 14px;
+} 
+.box .sidebar a {
+    color: rgba(255, 255, 255, .8);
+    line-height: 65px;
+    height: 57px;
+    display: block;
+    cursor:pointer;
+    padding-left: 40px;
+    font-size: 14px;
+} 
+
+.erji {
+    display: none;
+}
+.erji ul{
+    color: rgba(255, 255, 255, .8);
+    line-height: 30px;
+    height: auto;
+    display: block;
+    padding-left:56px;
+    font-size: 14px;
+}
+#admin{
+    display: none;
+    width:5px;
+    height:0;
+    background-color: #009688;
+    position: absolute;
+    top:0;
+    left: 0;
+    transition: all .1s;
+}
+.box .sidebar img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 14px;
+}
+.dsj{
+    border-style: solid dashed dashed;
+    border-color: #fff transparent transparent;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    position: absolute;
+    right: 20px;
+    margin-top: 31px;
+    border-width: 6px;
+    border-top-color: rgba(255, 255, 255, .7);
+}
+.count-top{
+    width: 100%;
+    overflow-y: scroll;
+    height: 550px;
+    background: #f2f2f2;
+}
+.pio-right{
+    width: 355px;
+    margin-left: 20px;
+    height: 1500px;
+    background: red;
+}
+.pio-left{
+    display: flex;
+    justify-content: space-around;
+    width:725px;;
+    height: 2000px;
+  /*   background: blue;  */
+}
+.lop{
+    border-style: solid dashed dashed;
+    border-color: #fff transparent transparent;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    position: absolute;
+    right: 20px;
+    margin-top: 16px;
+    border-width: 6px;
+    border-top-color: rgba(255, 255, 255, .7);
+}
+
+
+.nav ul li  span {
+    display: block;
+    position: absolute;
+    height: 0px;
+  /*   background: #20222b; */
+    top: 0;
+    left: 50%;
+}
+
+.nr-one-er .nr-one-yie img{
+    width: 20px;
+    height: 20px;
+   
+} 
+

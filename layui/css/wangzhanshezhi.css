@@ -1,0 +1,47 @@
+
+.cla-op-li-c{
+    float: left;
+    width: 80%;
+    margin-right: 10px;
+}
+.cla-op-li-h{
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+}
+.class-la .layui-input-company {
+    width: auto;
+    padding-right: 10px;
+    line-height: 38px;
+}
+.class-la .layui-input-inline {
+    float: left;
+    margin-right: 10px;
+}
+.layui-form-mid {
+    color: #999;
+    float: left;
+    display: block;
+    padding: 9px 0;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.layui-textarea {
+    min-height: 100px;
+    width: 98%;
+    height: 100px;
+    line-height: 20px;
+    padding: 6px 10px;
+  
+}
+.cla-opace{
+    float: left;
+    color: #666;
+    display: block;
+    padding: 9px 15px;
+    width: 118px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+}
